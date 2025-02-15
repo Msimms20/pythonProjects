@@ -1,0 +1,21 @@
+digraph HouseUML_Fixed {
+	node [shape=record]
+	"houses for a real estate broker" [label="{ houses for a real estate broker |
+- address: String\l
+- price: Double\l
+- squareFootage: Integer\l
+- numBedrooms: Integer\l
+- numBathrooms: Integer\l
+- yearBuilt: Integer\l
+- propertyType: String\l
+- listingStatus: String\l
+- agentName: String\l
+- MLSNumber: String\l |
++ getDetails(): String\l
++ updatePrice(newPrice: Double)\l
++ changeListingStatus(newStatus: String)\l
++ scheduleViewing(date: Date, time: String)\l
++ calculatePricePerSquareFoot(): Double\l
++ assignAgent(agentName: String)\l
+}"]
+}
