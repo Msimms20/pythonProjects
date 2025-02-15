@@ -32,4 +32,3 @@ uml_fixed_path = "C:\\Users\\Owner\\PycharmProjects\\UserDefinedObjectDesign\\Ho
 uml_fixed.render(uml_fixed_path)
 
 uml_fixed_path + ".pdf"
-
